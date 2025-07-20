@@ -4,7 +4,7 @@ import { SiNextdotjs } from "react-icons/si";
 import refugeeActImage from "@/public/react.png"
 import raionImage from "@/public/raion.png"
 import WOM from "@/public/WOM.png"
-import ELS from "@/public/ELS.png"
+import ELS from "@/public/image.png"
 
 
 import mka from "@/public/mka.png"
@@ -155,7 +155,7 @@ export const projectsData = [
         desc_zh: ". ",
         tags: ["Next.Js", "TypeScript", "Tailwind", 'Hero UI', "Shadcn UI"],
         imageUrl: ELS,
-       
+        projectUrl: 'https://github.com/DealWithMuhammad/react-NGO',
         demoUrl: 'elsystem.org',
     },
        {
@@ -202,14 +202,14 @@ export const projectsData = [
     },
 
       {
-        title: "GLB Dashboard",
+        title: "Learning Management System",
         title_zh: "社交新闻论坛",
-        description: 'I created a school dashboard using Next.js to make things easier for teachers and students. Teachers can add students, give assignments, and keep track of everything in one place. The dashboard has a calendar to help with scheduling and shows students grades and all their information. My aim was to build a simple and helpful tool to make school management better for everyone.',
+        description: 'For elsystem.org, I deployed and customized an open source LMS, working on its core modules and features to make it production-ready.',
         desc_zh: "一个现代化的全栈Reddit克隆",
-        tags: ["Next.js", "Chakra UI", "Tailwind", "Next UI","Firebase"],
+        tags: ["PHP", "SQL",],
         imageUrl: glbImage,
-        projectUrl: 'https://github.com/DealWithMuhammad/GLB-Dashboard',
-        demoUrl: 'https://glb-dashboard.vercel.app/ ',
+
+        demoUrl: 'https://lms.elsystem.org/',
     },
          {
         title: "Apple Clone",
@@ -218,7 +218,7 @@ export const projectsData = [
         desc_zh: "一个现代化的全栈Reddit克隆",
         tags: ["Next.js", "Stripe", "Tailwind", "MUI","Sanity", "Redux"],
         imageUrl: appleImage,
-        projectUrl: 'https://github.com/DealWithMuhammad/AppleClone',
+       
         demoUrl: 'https://appleclone-beta.vercel.app/',
     },
    
